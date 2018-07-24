@@ -1,0 +1,57 @@
+body{
+	color: cadetblue;
+	text-align: center;
+	background-color: rgba(240, 128, 128, 0.445);
+	font-weight: lighter;
+	font-family: Arial, Sans-Serif;
+	font-size: 20px
+}
+
+h1{
+	color: cadetblue;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 100px
+}
+h2{
+	color: cadetblue;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 75px
+}
+
+a{
+	color: cadetblue;
+	font-weight: lighter;
+	text-align: center;
+	font-family: Arial, Sans-Serif;
+	font-size: 50px;
+}
+.nav{
+  margin:0;
+  height: 40px;
+  width: 100%;
+  background: lightseagreen;
+  border:none;
+  padding:0;
+  display:table;
+}
+.nav ul{
+  margin:0;
+  padding:0;
+  width:100%;
+  display: table-row;
+}
+.nav ul li{
+  list-style: none;
+  display: table-cell;
+  width: 20%;
+}
+.nav ul li a{
+  text-decoration:none;
+  float:left;
+  display:block;
+}
+.nav ul li a:hover{
+  color:#4f2645;
+}
